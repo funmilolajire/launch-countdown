@@ -1,0 +1,26 @@
+:root {
+  font-family: 'Red Hat Text', sans-serif;
+  font-size: 10px;
+  line-height: 1;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: inherit;
+}
+
+body {
+  font-size: 1.8rem;
+}
