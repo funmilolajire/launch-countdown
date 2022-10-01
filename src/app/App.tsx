@@ -16,7 +16,7 @@ function App() {
   useEffect(() => {
     const countdown = setInterval(() => {
       const countFrom = dayjs().format("YYYY-MM-DD HH:mm:ss");
-      const countTo = dayjs("2022-10-10");
+      const countTo = dayjs("2022-10-16");
       const difference = countTo.diff(countFrom);
       const days = Math.floor(difference / (1000 * 60 * 60 * 24));
       const hours = Math.floor(
